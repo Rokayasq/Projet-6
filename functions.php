@@ -1,3 +1,15 @@
+
+<?php if(is_user_logged_in()) : 
+    add_filter('wp_nav_menu_items', function($items, $args) {
+        if ($args->theme_location == 'primary') {
+            $items .= '<li><a target="_blank" href="' . admin_url() . '">Admin</a></li>';
+        }
+        return $items;
+    }, 10, 2); 
+endif; ?>
+
+
+
 <?php
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 function theme_enqueue_styles()
@@ -24,3 +36,4 @@ endif;
 add_filter( 'locale_stylesheet_uri', 'chld_thm_cfg_locale_css' );
 
 // END ENQUEUE PARENT ACTION
+add_filter('wpcf7_autop_or_not', '__return_false');
