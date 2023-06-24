@@ -1,5 +1,5 @@
 
-<?php if(is_user_logged_in()) : 
+<?php if(is_user_logged_in()) :
     add_filter('wp_nav_menu_items', function($items, $args) {
         if ($args->theme_location == 'primary') {
             $items .= '<li><a target="_blank" href="' . admin_url() . '">Admin</a></li>';
@@ -7,8 +7,7 @@
         return $items;
     }, 10, 2); 
 endif; ?>
-
-
+ 
 
 <?php
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
