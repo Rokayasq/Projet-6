@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	wp_footer(); 
 ?>
 	</body>
-<p class= "footer">
+<p class= "footer"  style="margin-bottom: 0px";>
 	Mentions légales
 </p>
 </html>
