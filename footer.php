@@ -35,7 +35,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	wp_footer(); 
 ?>
 	</body>
-<p class= "footer"  style="margin-bottom: 0px";>
+<footer>
+	<a class="footer"  href="http://localhost:8888/Projet_6_Squalli_Rokaya%20/Planty/" style="margin-bottom: 0px;  font-size: 16px;
+    font-weight: 400">
 	Mentions légales
-</p>
+	</a>
+</footer>
 </html>
