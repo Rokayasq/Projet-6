@@ -10,10 +10,9 @@ Version: 4.1.5.1686581798
 Updated: 2023-06-12 16:56:38
 
 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-/* Import de la font Roboto depuis Google Fonts et on l'applique sur tous les éléments de la page */
-body * {
-   font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+body{
+   font-family: 'Syne', sans-serif;
 }
 /* On applique un gris plus clair sur les paragraphes */
 p {
@@ -29,5 +28,50 @@ p {
    transform: scale(1.05) translateY(-10px);
 }
 
+.footer{
+   display:flex;
+   justify-content: center;
+   color: black;
+   font-family: 'Syne', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   background-color: white;
+   padding: 20px; 
+   margin-bottom: 0px;
+}
+
+.main-header-menu {
+  display:flex;
+  align-items: center;
+  color:black;
+}
 
 
+.ast-builder-menu-2{
+  display:flex;
+  justify-content:flex-end;
+}
+
+
+.customize-unpreviewable:hover{
+  font-family:'Syne';
+  font-weight:700;
+  font-size:13px;
+}
+
+.site-above-header-wrap div{
+  padding-right: 0px;
+}
+
+#primary-site-navigation-desktop .menu-item {
+  margin-right: 25px;
+  margin-Left: 25px ;
+}
+
+.menu_active{
+  font-weight: 700;
+}
+
+.site-above-header-wrap {
+  padding-right: 0 !important;
+}

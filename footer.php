@@ -34,11 +34,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	astra_body_bottom();    
 	wp_footer(); 
 ?>
-	</body>
 <footer>
-	<a class="footer"  href="http://localhost:8888/Projet_6_Squalli_Rokaya%20/Planty/" style="margin-bottom: 0px;  font-size: 16px;
-    font-weight: 400">
+	<a class="footer"  href="http://localhost:8888/Projet_6_Squalli_Rokaya%20/Planty/" >
 	Mentions légales
 	</a>
 </footer>
+	</body>
+
 </html>
